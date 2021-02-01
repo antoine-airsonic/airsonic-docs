@@ -14,6 +14,10 @@ Open the `Server Manager` and start the `Add Roles and Features` wizard from the
 
 To get the URL Rewrite module for IIS, you need to install the `Web Platform Installer`. You can download this installer from the [Microsoft Page](https://www.microsoft.com/web/downloads/platform.aspx).
 
+You have to download the package "Application Request Routing" on the site of IIS :
+https://www.iis.net/downloads/microsoft/application-request-routing
+Routing application requests (ARR) 3 is essential for the proper functioning of the script below.
+
 After installing it, open the `Internet Information Services (IIS) Manager`. When you click on your server name on the left side, you'll see the `Web Platfrom Installer` in the management section. Install the newest `URL Rewrite` module.
 
 #### IIS configuration
